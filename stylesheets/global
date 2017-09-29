@@ -54,3 +54,10 @@ blockquote ol {
 blockquote li {
   margin: .2em;
   padding: 0; }
+
+.no-radius {
+  border: 0;
+  border-radius: 0px; }
+
+.padded {
+  padding: 15px; }
