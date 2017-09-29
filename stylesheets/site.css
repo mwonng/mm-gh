@@ -13,3 +13,6 @@ a {
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem; }
+
+h1 {
+  font-size: 36px; }
