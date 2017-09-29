@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 14px;
+  box-sizing: border-box; }
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif; }
+
+p, div, span {
+  font-size: 16px; }
+
+blockquote, q {
+  font: 21px/1.5 Consolas,"Courier New","KaiTi","KaiTi_GB2312","FangSong_GB2312",SimHei,arial,Monaco,monospace;
+  font-style: normal;
+  color: #000;
+  margin: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: .5rem;
+  max-width: 80%;
+  quotes: "“" "”" "‘" "’";
+  background: #f9f9f9; }
+
+q:before, blockquote:before, q:after, blockquote:after {
+  font-size: 3em;
+  color: #ccc;
+  line-height: .01em;
+  vertical-align: -0.5em; }
+
+q:before, blockquote:before {
+  content: open-quote;
+  top: 20px;
+  float: left;
+  position: relative;
+  margin-left: -.8em; }
+
+q:after, blockquote:after {
+  float: right;
+  position: relative;
+  content: close-quote;
+  bottom: 20px;
+  margin-right: -.8em; }
+
+blockquote ol {
+  margin: .2em;
+  padding: 0; }
+
+blockquote li {
+  margin: .2em;
+  padding: 0; }
